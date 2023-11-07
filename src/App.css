@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.flexSB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paddingTB {
+  padding: 40px 0;
+}
+
+.paddingSmall {
+  padding: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header and Nav Bar Styles (unchanged) */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+/* New Styles for Content Section */
+.category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ff9900;
+  padding: 8px 16px;
+  letter-spacing: 2px;
+  background-color: #333;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.category:hover {
+  background-color: #ff9900;
+  color: #333;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.comment i,
+.date i {
+  width: 30px;
+  color: #ff9900;
+  font-size: 15px;
+}
+
+.comment label,
+.date label {
+  font-size: 14px;
+  color: #777;
+}
+
+.desc {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.shadow {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.category:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
